@@ -1,0 +1,29 @@
+.home{
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden; /*no scroll bars will come on home page*/
+  align-items: center;
+  text-align: center;
+  background: 
+  linear-gradient(
+    to right,
+    rgba($primary-color,0.9),
+    rgba($primary-color,0.3)
+  ),
+  url('../img/model-3.jpg') center top;
+  background-size: cover;
+
+  &__name{          /*always & means parent, its same as type '.home'*/
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);;
+
+    &--last{
+      color: $secondary-color;
+      font-weight: 700;
+    }
+    
+
+  }
+}
